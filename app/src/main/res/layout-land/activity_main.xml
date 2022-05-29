@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/powder_blue">
+
+    <ImageView
+        android:id="@+id/image_austria"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_ausria"
+        app:layout_constraintBottom_toTopOf="@+id/image_madagascar"
+        app:layout_constraintEnd_toStartOf="@+id/image_poland"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/flag_ausria" />
+
+    <ImageView
+        android:id="@+id/image_poland"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_poland"
+        app:layout_constraintBottom_toTopOf="@+id/image_thailand"
+        app:layout_constraintEnd_toStartOf="@+id/image_columdia"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/image_austria"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/flag_poland" />
+
+    <ImageView
+        android:id="@+id/image_italy"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_italy"
+        app:layout_constraintBottom_toTopOf="@+id/image_switzerland"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/image_thailand"
+        app:layout_constraintTop_toBottomOf="@+id/image_columdia"
+        tools:srcCompat="@drawable/flag_italy" />
+
+    <ImageView
+        android:id="@+id/image_columdia"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_columbia"
+        app:layout_constraintBottom_toTopOf="@+id/image_italy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/image_poland"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/flag_columbia" />
+
+    <ImageView
+        android:id="@+id/image_madagascar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_madagascar"
+        app:layout_constraintBottom_toTopOf="@+id/image_denmark"
+        app:layout_constraintEnd_toStartOf="@+id/image_thailand"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_austria"
+        tools:srcCompat="@drawable/flag_madagascar" />
+
+    <ImageView
+        android:id="@+id/image_thailand"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_thailand"
+        app:layout_constraintBottom_toTopOf="@+id/image_denmark"
+        app:layout_constraintEnd_toStartOf="@+id/image_italy"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/image_madagascar"
+        app:layout_constraintTop_toBottomOf="@+id/image_poland"
+        tools:srcCompat="@drawable/flag_thailand" />
+
+    <ImageView
+        android:id="@+id/image_denmark"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_denmark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/image_switzerland"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_madagascar"
+        tools:srcCompat="@drawable/flag_denmark" />
+
+    <ImageView
+        android:id="@+id/image_switzerland"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/flags_height_land"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/flag_switzerland"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/image_denmark"
+        app:layout_constraintTop_toBottomOf="@+id/image_italy"
+        tools:srcCompat="@drawable/flag_switzerland" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
