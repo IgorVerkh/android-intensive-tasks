@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Intensive Picsum</string>
+    <string name="edit_text_hint">Enter your link to an image</string>
+</resources>
